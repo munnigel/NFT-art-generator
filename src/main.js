@@ -439,7 +439,7 @@ const startCreating = () => {
       i++
     ) {
       if (existingEditions.has(i)) {
-        console.log("Edition exists!");
+        console.log("Edition exists! Skipping this edition generation.");
       } else {
         abstractedIndexes[i] = layers;
       }
